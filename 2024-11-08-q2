@@ -1,0 +1,12 @@
+import numpy as np
+import matplotlib.pyplot as plt
+a=50
+b=200
+
+before_pixel_value = np.arange(256)
+after_pixel_value = before_pixel_value *  (b - a)  / 255 + 50
+ 
+plt.plot(after_pixel_value)
+plt.show()
+print(after_pixel_value)
+
